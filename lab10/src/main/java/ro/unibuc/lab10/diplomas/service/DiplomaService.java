@@ -1,8 +1,8 @@
-package ro.unibuc.lab10.diplome.service;
+package ro.unibuc.lab10.diplomas.service;
 
-import ro.unibuc.lab10.diplome.model.Diploma;
-import ro.unibuc.lab10.diplome.repository.DiplomaInMemoryRepository;
-import ro.unibuc.lab10.diplome.repository.DiplomaRepository;
+import ro.unibuc.lab10.diplomas.model.Diploma;
+import ro.unibuc.lab10.diplomas.repository.DiplomaInMemoryRepository;
+import ro.unibuc.lab10.diplomas.repository.DiplomaRepository;
 
 import java.util.List;
 

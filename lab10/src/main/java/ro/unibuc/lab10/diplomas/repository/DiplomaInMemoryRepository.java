@@ -1,6 +1,6 @@
-package ro.unibuc.lab10.diplome.repository;
+package ro.unibuc.lab10.diplomas.repository;
 
-import ro.unibuc.lab10.diplome.model.Diploma;
+import ro.unibuc.lab10.diplomas.model.Diploma;
 
 import java.util.ArrayList;
 import java.util.List;

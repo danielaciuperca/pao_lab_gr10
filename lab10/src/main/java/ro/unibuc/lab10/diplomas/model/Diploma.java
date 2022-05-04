@@ -1,4 +1,4 @@
-package ro.unibuc.lab10.diplome.model;
+package ro.unibuc.lab10.diplomas.model;
 
 import java.io.Serializable;
 import java.util.Objects;
