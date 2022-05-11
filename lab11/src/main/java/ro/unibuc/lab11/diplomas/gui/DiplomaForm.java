@@ -11,8 +11,10 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import java.sql.SQLException;
 
 public class DiplomaForm {
     private JPanel rootPanel;
@@ -34,9 +36,18 @@ public class DiplomaForm {
     private ComboBoxModel<Specialization> specializationComboBoxModel;
     private DefaultListModel<Diploma> diplomaListModel;
 
-    private DiplomaService diplomaService = new DiplomaService();
+    private DiplomaService diplomaService;
 
     public DiplomaForm() {
+
+        try {
+            diplomaService = new DiplomaService();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null,
+                    "There was a problem with the database: " + e.getMessage());
+            e.printStackTrace();
+        }
+
         specializationComboBoxModel = new DefaultComboBoxModel<>(Specialization.values());
         specializationCmb.setModel(specializationComboBoxModel);
 
