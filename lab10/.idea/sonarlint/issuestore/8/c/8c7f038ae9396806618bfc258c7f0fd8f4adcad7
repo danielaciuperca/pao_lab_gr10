@@ -1,0 +1,23 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃºÏÍşÿÿÿÿ
+D
+java:S3740!"/Provide the parametrized type for this generic.(ÿ™•K
+T
+java:S21304"9Use "Integer.parseInt" for this string-to-int conversion.(×ûå·ıÿÿÿÿ
+Y
+java:S21307">Use "Double.parseDouble" for this string-to-double conversion.(Ş÷•Çúÿÿÿÿ
+T
+java:S1128"2Remove this unused import 'javax.swing.ListModel'.(ğşÃˆıÿÿÿÿ8†›øÿˆ0
+C
+java:S1068"-Remove this unused "seriesLbl" private field.(²—ï¤
+D
+java:S1068"/Remove this unused "graduateLbl" private field.(‚Œñ/
+A
+java:S1068"+Remove this unused "yearLbl" private field.(õÔÙñ
+D
+java:S1068".Remove this unused "facultyLbl" private field.(Ä¥ßğ
+P
+java:S1068"5Remove this unused "specializationLbl" private field.(Äµ›üÿÿÿÿ
+B
+java:S1068",Remove this unused "gradeLbl" private field.(ûï˜
